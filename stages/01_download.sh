@@ -12,24 +12,58 @@ echo "List path: $listpath"
 mkdir -p $listpath
 cd $listpath;
 
-# Define the FTP base address
-ftpbase=""
-
-# Retrieve the list of files to download from FTP base address
-wget --no-remove-listing $ftpbase
-cat index.html | grep -Po '(?<=href=")[^"]*' | sort | cut -d "/" -f 10 > files.txt
-rm .listing
-rm index.html
-
 # Create the download directory
 downloadpath="$localpath/download"
 echo "Download path: $downloadpath"
 mkdir -p "$downloadpath"
 cd $downloadpath;
 
+# Download files
+URL="https://fis.fda.gov/content/Exports/"
+Year=2004
+Quarter=1
+FileName="aers_ascii_${Year}q${Quarter}.zip"
+while true;
+do
+  if ! wget --spider -w 2 -t 2 "$URL$FileName" 2>/dev/null; 
+  then
+    break
+  fi
+  echo $FileName
+  echo $FileName >> "${listpath}/files.txt"
+  if [[ $Quarter -ge 4 ]] 
+  then
+    let Year=$Year+1
+    Quarter=1
+  else
+    let Quarter=$Quarter+1
+  fi
+  FileName="aers_ascii_${Year}q${Quarter}.zip"
+done
+Year=2012
+Quarter=4
+FileName="faers_ascii_${Year}q${Quarter}.zip"
+while true;
+do
+  if ! wget --spider -w 2 -t 2 "$URL$FileName" 2>/dev/null; 
+  then
+    break
+  fi
+  echo $FileName
+  echo $FileName >> "${listpath}/files.txt"
+  if [[ $Quarter -ge 4 ]] 
+  then
+    let Year=$Year+1
+    Quarter=1
+  else
+    let Quarter=$Quarter+1
+  fi
+  FileName="faers_ascii_${Year}q${Quarter}.zip"
+done
+
 # Download files in parallel
 cat $listpath/files.txt | xargs -P14 -n1 bash -c '
 echo $1
-wget -nH -q -nc -P '$downloadpath' '$ftpbase'$1' {}
+wget -nH -q -nc -P '$downloadpath' '$URL'$1' {}
 
 echo "Download done."
