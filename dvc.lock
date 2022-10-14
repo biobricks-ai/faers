@@ -34,3 +34,25 @@ stages:
       md5: 4b1d6599899c870d3e79df59396f1d24.dir
       size: 13880263237
       nfiles: 1052
+  build:
+    cmd: stages/03_build.sh
+    deps:
+    - path: list
+      md5: abdc4b481089510753fbce5c1f87c884.dir
+      size: 1667
+      nfiles: 1
+    - path: raw
+      md5: 4b1d6599899c870d3e79df59396f1d24.dir
+      size: 13880263237
+      nfiles: 1052
+    - path: stages/03_build.sh
+      md5: 1e88d659c2ed93021460498e2052ad15
+      size: 842
+    - path: stages/csv2parquet.py
+      md5: 03c4448a34539ce50ac6c9734a61257c
+      size: 321
+    outs:
+    - path: brick
+      md5: 44aa3a9ad18566bdde281dffc24bb9c8.dir
+      size: 1559580247
+      nfiles: 366

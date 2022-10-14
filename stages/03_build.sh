@@ -8,7 +8,6 @@ echo "Local path: $localpath"
 
 # Set list path
 listpath="$localpath/list"
-mkdir -p $listpath
 echo "List path: $listpath"
 
 # Set raw path
@@ -22,9 +21,14 @@ echo "Brick path: $brickpath"
 
 # Process raw files and create parquet files in parallel
 # calling a Python function with arguments input and output filenames
-cat $listpath/files.txt | tail -n +4 | xargs -P14 -n1 bash -c '
-  filename="${1%.*}"
-  echo '$rawpath'/$filename/$filename.txt
-  echo '$brickpath'/$filename.parquet
-  python stages/csv2parquet.py '$rawpath'/$filename.txt '$brickpath'/$filename.parquet
-' {}
+for class in drug demo indi outc reac rpsr
+do
+  mkdir -p $brickpath/$class.parquet
+  index=0
+  for infile in `find $rawpath -type f -iname $class*.txt | sort`
+  do
+    outfile="$brickpath/$class.parquet/$class`printf %03d $index`.parquet"
+    python stages/csv2parquet.py $infile $outfile 
+    let index=$index+1
+  done
+done
