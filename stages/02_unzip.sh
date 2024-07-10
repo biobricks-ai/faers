@@ -20,8 +20,8 @@ mkdir -p $rawpath
 echo "Raw path: $rawpath"
 
 # Unzip files in parallel
-cat $listpath/files.txt | tail -n +2 | xargs -P14 -n1 bash -c '
-  filename="${1%.*}"
+cat $listpath/files.txt | head -n -3 | xargs -P14 -n1 bash -c '
+  filename=$(basename "$1" .zip)
   echo '$downloadpath'/$1
   echo '$rawpath'/$filename
   unzip '$downloadpath'/$1 -d '$rawpath'/$filename

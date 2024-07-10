@@ -23,12 +23,10 @@ echo "Brick path: $brickpath"
 # calling a Python function with arguments input and output filenames
 for class in drug demo indi outc reac rpsr
 do
-  mkdir -p $brickpath/$class.parquet
-  index=0
-  for infile in `find $rawpath -type f -iname $class*.txt | sort`
+  mkdir -p "$brickpath"/$class.parquet
+  for infile in $(find "$rawpath" -type f -iname "$class*.txt" | sort)
   do
-    outfile="$brickpath/$class.parquet/$class`printf %03d $index`.parquet"
-    python stages/csv2parquet.py $infile $outfile 
-    let index=$index+1
+    outfile="$brickpath/$class.parquet/$(basename "$infile" .txt).parquet"
+    python3 stages/csv2parquet.py "$infile" "$outfile"
   done
 done
