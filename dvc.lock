@@ -4,55 +4,63 @@ stages:
     cmd: stages/01_download.sh
     deps:
     - path: stages/01_download.sh
-      md5: 3c28cf1b8a067a2445ee5e40de7c2f5d
-      size: 1414
+      hash: md5
+      md5: c2cec074f10db226dcc8c1bae52aff5f
+      size: 852
     outs:
     - path: download
-      md5: cde2df2617af4a2f9d778af1a8de37b7.dir
-      size: 2464797536
-      nfiles: 74
+      hash: md5
+      md5: fc7c5ae6df8774baa356ed21ca71929a.dir
+      size: 2941602158
+      nfiles: 81
     - path: list
-      md5: abdc4b481089510753fbce5c1f87c884.dir
-      size: 1667
-      nfiles: 1
+      hash: md5
+      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
+      size: 49807
+      nfiles: 2
   unzip:
     cmd: stages/02_unzip.sh
     deps:
     - path: download
-      md5: cde2df2617af4a2f9d778af1a8de37b7.dir
-      size: 2464797536
-      nfiles: 74
+      hash: md5
+      md5: fc7c5ae6df8774baa356ed21ca71929a.dir
+      size: 2941602158
+      nfiles: 81
     - path: list
-      md5: abdc4b481089510753fbce5c1f87c884.dir
-      size: 1667
-      nfiles: 1
+      hash: md5
+      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
+      size: 49807
+      nfiles: 2
     - path: stages/02_unzip.sh
-      md5: 8f2053d9bb743fc254a7ca73a16320dd
-      size: 583
+      hash: md5
+      md5: fed5f14c73488df378cd918291d07ebf
+      size: 595
     outs:
     - path: raw
-      md5: 4b1d6599899c870d3e79df59396f1d24.dir
-      size: 13880263237
-      nfiles: 1052
+      hash: md5
+      md5: d56657f52a36a7583dd5aa988b76d5f9.dir
+      size: 16702771069
+      nfiles: 1189
   build:
     cmd: stages/03_build.sh
     deps:
     - path: list
-      md5: abdc4b481089510753fbce5c1f87c884.dir
-      size: 1667
-      nfiles: 1
+      hash: md5
+      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
+      size: 49807
+      nfiles: 2
     - path: raw
-      md5: 4b1d6599899c870d3e79df59396f1d24.dir
-      size: 13880263237
-      nfiles: 1052
+      hash: md5
+      md5: d56657f52a36a7583dd5aa988b76d5f9.dir
+      size: 16702771069
+      nfiles: 1189
     - path: stages/03_build.sh
-      md5: 1e88d659c2ed93021460498e2052ad15
-      size: 842
-    - path: stages/csv2parquet.py
-      md5: 03c4448a34539ce50ac6c9734a61257c
-      size: 321
+      hash: md5
+      md5: 1d7a28eee0db6795fc0b55493fcef6c2
+      size: 868
     outs:
     - path: brick
-      md5: 44aa3a9ad18566bdde281dffc24bb9c8.dir
-      size: 1559580247
-      nfiles: 366
+      hash: md5
+      md5: 7044718b7b90a0fd0bf96f2b3c397e8a.dir
+      size: 2720616009
+      nfiles: 486

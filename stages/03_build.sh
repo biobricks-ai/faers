@@ -23,10 +23,10 @@ echo "Brick path: $brickpath"
 # calling a Python function with arguments input and output filenames
 for class in drug demo indi outc reac rpsr
 do
-  mkdir -p "$brickpath"/$class.parquet
+  mkdir -p "$brickpath"/$class
   for infile in $(find "$rawpath" -type f -iname "$class*.txt" | sort)
   do
-    outfile="$brickpath/$class.parquet/$(basename "$infile" .txt).parquet"
-    python3 stages/csv2parquet.py "$infile" "$outfile"
+    outfile="$brickpath/$class/$(basename "$infile" .txt).parquet"
+    duckdb -c "copy (select * from read_csv('$infile', delim='$', ignore_errors=true)) to '$outfile' (format parquet)"
   done
 done
