@@ -1,5 +1,11 @@
 # FAERS
+source: https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-public-dashboard
 
+FDA Adverse Event Reporting System (FAERS) Public Dashboard
+
+
+
+## Notes
 Manually fixed files 
 
 /mnt/biobricks/faers/raw/aers_ascii_2011q2/ascii/DRUG11Q2.TXT
