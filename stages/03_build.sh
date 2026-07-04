@@ -21,7 +21,7 @@ echo "Brick path: $brickpath"
 
 # Process raw files and create parquet files in parallel
 # calling a Python function with arguments input and output filenames
-for class in drug demo indi outc reac rpsr
+for class in drug demo indi outc reac rpsr ther
 do
   mkdir -p "$brickpath"/$class
   for infile in $(find "$rawpath" -type f -iname "$class*.txt" | sort)
