@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "biobricks": "https://biobricks.ai/ns#"
+  },
+  "@type": "dcat:Dataset",
+  "@id": "https://biobricks.ai/bricks/faers",
+  "dcterms:title": "FDA Adverse Event Reporting System (FAERS)",
+  "dcterms:description": "Quarterly ASCII data extracts from the FDA Adverse Event Reporting System (FAERS), a database that supports the FDA's post-marketing safety surveillance program for drug and therapeutic biologic products. Each quarter provides seven relational tables: DEMO (demographic/administrative), DRUG (drug information), REAC (reactions/MedDRA preferred terms), OUTC (patient outcomes), RPSR (report sources), THER (drug therapy start/end dates), and INDI (indications for use). Data span 2004 Q1 through 2026 Q1 (pre-2012 Q4 quarters use the legacy AERS naming).",
+  "dcterms:license": "https://www.fda.gov/about-fda/about-website/website-policies#linking",
+  "dcterms:rights": "U.S. Government public domain (FDA public data). No copyright; free to use for any purpose including commercial.",
+  "dcterms:publisher": "U.S. Food and Drug Administration (FDA)",
+  "dcterms:temporal": "2004Q1-2026Q1",
+  "biobricks:merckFlag": "commercial-OK",
+  "biobricks:reviewed": false,
+  "biobricks:reviewNotes": "Coverage extended from 2024 Q1 to 2026 Q1 (added 2024 Q2 - 2026 Q1). Pending human review.",
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "prov:wasAssociatedWith": "Claude Code Agent",
+    "prov:endedAtTime": {
+      "@type": "xsd:dateTime",
+      "@value": "2026-07-15T00:00:00Z"
+    }
+  },
+  "prov:wasDerivedFrom": {
+    "@type": "dcat:Dataset",
+    "@id": "https://fis.fda.gov/extensions/FPD-QDE-FAERS/FPD-QDE-FAERS.html",
+    "dcterms:title": "FAERS Quarterly Data Extract Files",
+    "dcat:downloadURL": "https://fis.fda.gov/content/Exports/",
+    "dcat:landingPage": "https://www.fda.gov/drugs/fdas-adverse-event-reporting-system-faers/fda-adverse-event-reporting-system-faers-public-dashboard"
+  }
+}

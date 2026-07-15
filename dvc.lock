@@ -7,60 +7,63 @@ stages:
       hash: md5
       md5: c2cec074f10db226dcc8c1bae52aff5f
       size: 852
+      isexec: true
     outs:
     - path: download
       hash: md5
-      md5: fc7c5ae6df8774baa356ed21ca71929a.dir
-      size: 2941602158
-      nfiles: 81
+      md5: 0e86472dae7668c0edc8e45abd6178ff.dir
+      size: 3484124231
+      nfiles: 89
     - path: list
       hash: md5
-      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
-      size: 49807
+      md5: 8151e17d76c8b6c0d6d07cad1007c771.dir
+      size: 54548
       nfiles: 2
   unzip:
     cmd: stages/02_unzip.sh
     deps:
     - path: download
       hash: md5
-      md5: fc7c5ae6df8774baa356ed21ca71929a.dir
-      size: 2941602158
-      nfiles: 81
+      md5: 0e86472dae7668c0edc8e45abd6178ff.dir
+      size: 3484124231
+      nfiles: 89
     - path: list
       hash: md5
-      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
-      size: 49807
+      md5: 8151e17d76c8b6c0d6d07cad1007c771.dir
+      size: 54548
       nfiles: 2
     - path: stages/02_unzip.sh
       hash: md5
-      md5: fed5f14c73488df378cd918291d07ebf
-      size: 595
+      md5: 7ba3273a4781b5d8d25d0022859758d6
+      size: 816
+      isexec: true
     outs:
     - path: raw
       hash: md5
-      md5: d56657f52a36a7583dd5aa988b76d5f9.dir
-      size: 16702771069
-      nfiles: 1189
+      md5: 0066180e2d36f50ee99be9712881e7ab.dir
+      size: 19843369984
+      nfiles: 1334
   build:
     cmd: stages/03_build.sh
     deps:
     - path: list
       hash: md5
-      md5: 7a788031ac749fb448f5ae50ef881ee6.dir
-      size: 49807
+      md5: 8151e17d76c8b6c0d6d07cad1007c771.dir
+      size: 54548
       nfiles: 2
     - path: raw
       hash: md5
-      md5: d56657f52a36a7583dd5aa988b76d5f9.dir
-      size: 16702771069
-      nfiles: 1189
+      md5: 0066180e2d36f50ee99be9712881e7ab.dir
+      size: 19843369984
+      nfiles: 1334
     - path: stages/03_build.sh
       hash: md5
-      md5: 1d7a28eee0db6795fc0b55493fcef6c2
-      size: 868
+      md5: c305ddbb56a454c12e39ea495e3a9f8b
+      size: 873
+      isexec: true
     outs:
     - path: brick
       hash: md5
-      md5: 7044718b7b90a0fd0bf96f2b3c397e8a.dir
-      size: 2720616009
-      nfiles: 486
+      md5: 36a6f8787563f9b23976185684e0c90b.dir
+      size: 3427759203
+      nfiles: 623

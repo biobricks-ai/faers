@@ -8186,6 +8186,862 @@
       }
     },
     {
+      "url": "brick/DEMO24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DEMO26Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseversion",
+            "datatype": "integer"
+          },
+          {
+            "name": "i_f_code",
+            "datatype": "boolean"
+          },
+          {
+            "name": "event_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "mfr_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "init_fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "fda_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "rept_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "auth_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_num",
+            "datatype": "string"
+          },
+          {
+            "name": "mfr_sndr",
+            "datatype": "string"
+          },
+          {
+            "name": "lit_ref",
+            "datatype": "string"
+          },
+          {
+            "name": "age",
+            "datatype": "integer"
+          },
+          {
+            "name": "age_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "age_grp",
+            "datatype": "string"
+          },
+          {
+            "name": "sex",
+            "datatype": "string"
+          },
+          {
+            "name": "e_sub",
+            "datatype": "string"
+          },
+          {
+            "name": "wt",
+            "datatype": "number"
+          },
+          {
+            "name": "wt_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "rept_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "to_mfr",
+            "datatype": "string"
+          },
+          {
+            "name": "occp_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "reporter_country",
+            "datatype": "string"
+          },
+          {
+            "name": "occr_country",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
       "url": "brick/demo12q4.parquet",
       "tableSchema": {
         "columns": [
@@ -14097,6 +14953,702 @@
       }
     },
     {
+      "url": "brick/DRUG24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/DRUG26Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "role_cod",
+            "datatype": "string"
+          },
+          {
+            "name": "drugname",
+            "datatype": "string"
+          },
+          {
+            "name": "prod_ai",
+            "datatype": "string"
+          },
+          {
+            "name": "val_vbm",
+            "datatype": "integer"
+          },
+          {
+            "name": "route",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_vbm",
+            "datatype": "string"
+          },
+          {
+            "name": "cum_dose_chr",
+            "datatype": "number"
+          },
+          {
+            "name": "cum_dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dechal",
+            "datatype": "string"
+          },
+          {
+            "name": "rechal",
+            "datatype": "string"
+          },
+          {
+            "name": "lot_num",
+            "datatype": "string"
+          },
+          {
+            "name": "exp_dt",
+            "datatype": "string"
+          },
+          {
+            "name": "nda_num",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_amt",
+            "datatype": "number"
+          },
+          {
+            "name": "dose_unit",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_form",
+            "datatype": "string"
+          },
+          {
+            "name": "dose_freq",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
       "url": "brick/drug12q4.parquet",
       "tableSchema": {
         "columns": [
@@ -15880,6 +17432,190 @@
       }
     },
     {
+      "url": "brick/INDI24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/INDI26Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "indi_pt",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
       "url": "brick/indi12q4.parquet",
       "tableSchema": {
         "columns": [
@@ -17265,6 +19001,158 @@
     },
     {
       "url": "brick/OUTC24Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "outc_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/OUTC26Q1.parquet",
       "tableSchema": {
         "columns": [
           {
@@ -18838,6 +20726,190 @@
       }
     },
     {
+      "url": "brick/REAC24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/REAC26Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "pt",
+            "datatype": "string"
+          },
+          {
+            "name": "drug_rec_act",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
       "url": "brick/reac12q4.parquet",
       "tableSchema": {
         "columns": [
@@ -20219,6 +22291,158 @@
     },
     {
       "url": "brick/RPSR24Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "rpsr_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/RPSR26Q1.parquet",
       "tableSchema": {
         "columns": [
           {
@@ -22882,6 +25106,286 @@
     },
     {
       "url": "brick/THER24Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER24Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER24Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER24Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER25Q1.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER25Q2.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER25Q3.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER25Q4.parquet",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "primaryid",
+            "datatype": "integer"
+          },
+          {
+            "name": "caseid",
+            "datatype": "integer"
+          },
+          {
+            "name": "dsg_drug_seq",
+            "datatype": "integer"
+          },
+          {
+            "name": "start_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "end_dt",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur",
+            "datatype": "integer"
+          },
+          {
+            "name": "dur_cod",
+            "datatype": "string"
+          }
+        ]
+      }
+    },
+    {
+      "url": "brick/THER26Q1.parquet",
       "tableSchema": {
         "columns": [
           {
